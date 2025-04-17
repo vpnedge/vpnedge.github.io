@@ -1,4 +1,4 @@
-# VPN Edge | 4月17日22.3M/S|免费SSR/Clash/V2ray/Shadowrocket订阅机场  更新时间 2025-04-17 15:00:49
+# VPN Edge | 4月17日21.7M/S|免费SSR/V2ray/Shadowrocket/Clash订阅机场  更新时间 2025-04-17 15:05:20
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://vpnedge.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
