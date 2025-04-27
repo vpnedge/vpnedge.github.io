@@ -1,4 +1,4 @@
-# VPN Edge | 4月23日18.6M/S|免费V2ray/Shadowrocket/Clash/SSR订阅机场  更新时间 2025-04-23 08:51:50
+# VPN Edge | 4月27日21.8M/S|免费V2ray/SSR/Shadowrocket/Clash订阅机场  更新时间 2025-04-27 08:38:42
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://vpnedge.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://vpnedge.github.io/uploads/2025/04/0-20250423.yaml
-- https://vpnedge.github.io/uploads/2025/04/1-20250423.yaml
-- https://vpnedge.github.io/uploads/2025/04/2-20250423.yaml
-- https://vpnedge.github.io/uploads/2025/04/3-20250423.yaml
-- https://vpnedge.github.io/uploads/2025/04/4-20250423.yaml
+- https://vpnedge.github.io/uploads/2025/04/0-20250427.yaml
+- https://vpnedge.github.io/uploads/2025/04/1-20250427.yaml
+- https://vpnedge.github.io/uploads/2025/04/2-20250427.yaml
+- https://vpnedge.github.io/uploads/2025/04/3-20250427.yaml
+- https://vpnedge.github.io/uploads/2025/04/4-20250427.yaml
 
 ### V2ray订阅链接
 
-- https://vpnedge.github.io/uploads/2025/04/0-20250423.txt
-- https://vpnedge.github.io/uploads/2025/04/1-20250423.txt
-- https://vpnedge.github.io/uploads/2025/04/2-20250423.txt
-- https://vpnedge.github.io/uploads/2025/04/3-20250423.txt
-- https://vpnedge.github.io/uploads/2025/04/4-20250423.txt
+- https://vpnedge.github.io/uploads/2025/04/0-20250427.txt
+- https://vpnedge.github.io/uploads/2025/04/1-20250427.txt
+- https://vpnedge.github.io/uploads/2025/04/2-20250427.txt
+- https://vpnedge.github.io/uploads/2025/04/3-20250427.txt
+- https://vpnedge.github.io/uploads/2025/04/4-20250427.txt
 
 ### Sing-box订阅链接
 
-- https://vpnedge.github.io/uploads/2025/04/20250423.json
+- https://vpnedge.github.io/uploads/2025/04/20250427.json
 
 ## 更多clash节点订阅 ：
 
