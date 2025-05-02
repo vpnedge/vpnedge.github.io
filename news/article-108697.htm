@@ -1,0 +1,199 @@
+<!doctype html>
+<html xml:lang="zh-CN" lang="zh-CN">
+
+<head>
+        <!-- Required meta tags -->
+    <link rel="canonical" href="https://vpnedge.github.io/news/article-108697.htm" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/assets/website/img/clashnode2025/favicon.ico" type="image/x-icon"/>
+    <title>父传子、子传父经典案例—微信小程序自定义标题栏全过程</title>
+        <meta name="description" content="父传子、子传父经典案例—微信小程序自定义标题栏全过程 1. 先在父组件（页面）的data中放入数组数据2. 在component文件夹新建组件Tabs3. 在父组件引入子组件 4. 在父组件的wxml" />
+    
+    <meta name="author" content="VPN Edge 机场订阅官网">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://vpnedge.github.io/news/article-108697.htm" />
+    <meta property="og:site_name" content="VPN Edge 机场订阅官网" />
+    <meta property="og:title" content="父传子、子传父经典案例—微信小程序自定义标题栏全过程" />
+    <meta property="og:image" content="https://vpnedge.github.io/uploads/20240303/0001d18562c9eb89a3592b526b680d10.webp" />
+        <meta property="og:release_date" content="2025-05-01T09:02:46" />
+    <meta property="og:updated_time" content="2025-05-01T09:02:46" />
+        <meta property="og:description" content="父传子、子传父经典案例—微信小程序自定义标题栏全过程 1. 先在父组件（页面）的data中放入数组数据2. 在component文件夹新建组件Tabs3. 在父组件引入子组件 4. 在父组件的wxml" />
+        
+    <meta name="applicable-device" content="pc,mobile" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="父传子、子传父经典案例—微信小程序自定义标题栏全过程">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="dns-prefetch" href="https:/www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.googleadservices.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="https://cm.g.doubleclick.net">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/website/fonts/clashnode2025/icomoon/style.css">
+    <link rel="stylesheet" href="/assets/website/fonts/clashnode2025/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="/assets/website/css/clashnode2025/bootstrap.css">
+    <link rel="stylesheet" href="/assets/website/css/clashnode2025/tiny-slider.css">
+    <link rel="stylesheet" href="/assets/website/css/clashnode2025/aos.css">
+    <link rel="stylesheet" href="/assets/website/css/clashnode2025/style.css">
+    <link rel="stylesheet" href="/assets/website/css/G.css" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-10VQ6CQBLF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-10VQ6CQBLF');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3332997411212854"
+     crossorigin="anonymous"></script>
+</head>
+
+<body data-page="detail">
+        <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close">
+                <span class="icofont-close js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+    <nav class="site-nav mt-3">
+        <div class="container">
+            <div class="site-navigation">
+                                <a href="/" class="logo m-0 mt-2 float-start">VPN Edge</a>
+                                <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+                                        <li><a href="/">首页</a></li>
+                                        <li><a href="/free-nodes/">免费节点</a></li>
+                                        <li><a href="/paid-subscribe/">推荐机场</a></li>
+                                        <li><a href="/news/">新闻资讯</a></li>
+                                        <li><a href="/client.htm">客户端</a></li>
+                                    </ul>
+                <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="hero-section body-page">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5">
+                    <h2 class="heading mb-3" data-aos="fade-up" data-aos-delay="100">新闻资讯</h2>
+                    <p class="mb-5" data-aos="fade-up" data-aos-delay="200">
+                        <a href="/">首页</a> / <a href="/news/">新闻资讯</a> / 正文
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="img-wrap" data-aos="fade-left">
+                        <img src="/assets/website/img/clashnode2025/hero_1.png" alt="Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div data-aos="fade-up">
+                        <h1 class="mb-5 text-center">父传子、子传父经典案例—微信小程序自定义标题栏全过程</h1>
+                    </div>
+
+                                    <input type="hidden" id="share-website-info" data-name="Clash Meta免费节点订阅站" data-url="https://clash-meta.github.io">
+                <div class="xcblog-blog-detail xcblog-blog-detail-defined">
+                      				  				  				<div id="content_views" class="markdown_views prism-atom-one-dark"> <h2> <a id="_0" rel="nofollow"></a>父传子、子传父经典案例—微信小程序自定义标题栏全过程</h2> <p><strong>1.</strong> 先在父组件（页面）的data中放入数组数据<br /><img decoding="async" src="http://img.555519.xyz/uploads/20230207/30bdfcfd7d9da80ab8b7f1af93feb7d5.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"><br /><strong>2.</strong> 在component文件夹新建组件Tabs<br /><img decoding="async" src="http://img.555519.xyz/uploads/20230207/527a4964f1466aac255fd2a288d9fe94.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"><br /><strong>3.</strong> 在父组件引入子组件<img decoding="async" src="http://img.555519.xyz/uploads/20230207/88e8201f12f42f7d9aee14fbbfe8e58a.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"></p> <p><strong>4.</strong> 在父组件的wxml中引入子组件标签，此时组件的基操完成，准备进入父传子环节<img decoding="async" src="http://img.555519.xyz/uploads/20230207/28efbd1ce9cca9bfeae662ca3e946d06.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"><br /><strong>5.</strong> 父亲向子组件传递数据靠<strong>属性</strong>，咱们在子组件标签中引入在list属性，值为咱们在data中的list数组<br /><img decoding="async" src="http://img.555519.xyz/uploads/20230207/fd4665f47b749b1dd05393e35165e82c.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"><br /><strong>6.</strong> 引入属性后不要忘记在子组件js文件中的properties中写清楚引入的属性的类型以及默认值<br /><img decoding="async" src="http://img.555519.xyz/uploads/20230207/281a4bddc4dff663331e261712e06c49.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"><br /><strong>7.</strong> 此时子组件已经获取父组件的list数据，这时候我们就可以在子组件中操作样式而在父组件（页面）中显示了</p> <p>在子组件wxml中定义标题栏最外层容器存放标题栏和内容<br /><img decoding="async" src="http://img.555519.xyz/uploads/20230207/ec12914e2e0e0b1fa130b66306bc8abd.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"><br /><img decoding="async" src="http://img.555519.xyz/uploads/20230207/af53f91fa495d939cc5e8c76a0d97440.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"></p> <p><strong>效果：</strong><br /><img decoding="async" src="http://img.555519.xyz/uploads/20230207/7c6aba9c819ec80030029564716bd5f0.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"><br /> 此时父传子完成，接下来进行子传父步骤.<br /><strong>8.</strong> 我们接下来想完成点击自定义标题，标题发生样式改变的效果，我们之前是在组件中渲染父组件传递过来的数据的，我们在子组件的wxml中绑定点击事件并且定义索引index，当我们点击标题时出发子组件中的自定义点击事件获得当前标题的索引，并用triggerEvent方法，将点击的索引传递给父组件的自定义点击事件，所以此时我们点击标题，父组件有返回值（若不加这个方法，父组件是没有返回值的）<br /><img decoding="async" src="http://img.555519.xyz/uploads/20230207/89f15a442355a56691f7c1f81e953756.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"><br /> 所以我们可以从父组件返回值中提取索引，并获取父组件data中的list数组，循环所有标题索引，若等于获取到的index，则该索引对应的值的isactive方法值变为true，否则为false<br /><img decoding="async" src="http://img.555519.xyz/uploads/20230207/238e3328a44cbb0e21e669d32c162a8b.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"><br /><strong>9.</strong> 在子组件wxml中新加active类，若isactive属性为true就添加样式active类<br /><img decoding="async" src="http://img.555519.xyz/uploads/20230207/2cae647f4244138ab9df51417d800cfb.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"><br /> 在子组件less文件中设置active样式<br /><img decoding="async" src="http://img.555519.xyz/uploads/20230207/f8e53b57c73c9c25217bf7e4e3a3b137.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"><br /> 此时子传父完成，本案例的子传父，即子组件被点击的标题的index值传递给父组件的自定义方法中，最后父组件的这个自定义方法改变这个索引对应的标题的样式。</p> <p><strong>效果：</strong><br /><img decoding="async" src="http://img.555519.xyz/uploads/20230207/51dc6440753b4816ed6cd71c022f9cce.jpg" alt="父传子、子传父经典案例—微信小程序自定义标题栏全过程"></p> <p><strong>总结：</strong><br /> 父传子过程通过属性来进行，子传父过程通过triggerEvent（“父组件自定义点击事件”，子组件要传递的值）方法来传值</p> </p></div> 			                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/news/article-107871.htm">宠物疫苗过敏用什么药脱敏最好（宠物疫苗过敏用什么药脱敏最好呢）</a></p>
+                                        <p>下一个：<a href="/news/article-108698.htm">动物医院上班日志（动物医院上班日志范文）</a></p>
+                                    </div>
+                
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-101244.htm" title="聊城卖宠物的地方在哪里（聊城哪里有卖宠物的）">聊城卖宠物的地方在哪里（聊城哪里有卖宠物的）</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-4-27-node-share.htm" title="VPN Edge | 4月27日22.8M/S|免费Shadowrocket/SSR/Clash/V2ray订阅机场">VPN Edge | 4月27日22.8M/S|免费Shadowrocket/SSR/Clash/V2ray订阅机场</a></li>
+                        <li class="py-2"><a href="/news/article-102019.htm" title="Vue中所有的v-指令">Vue中所有的v-指令</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-4-17-free-node-subscribe-links.htm" title="VPN Edge | 4月17日22.1M/S|免费SSR/Shadowrocket/V2ray/Clash订阅链接">VPN Edge | 4月17日22.1M/S|免费SSR/Shadowrocket/V2ray/Clash订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-98277.htm" title="宠物粮怎么卖赚钱（做宠物粮生意赚钱吗）">宠物粮怎么卖赚钱（做宠物粮生意赚钱吗）</a></li>
+                        <li class="py-2"><a href="/news/article-104544.htm" title="加盟饲料加工厂（加盟饲料加工厂赚钱吗）">加盟饲料加工厂（加盟饲料加工厂赚钱吗）</a></li>
+                        <li class="py-2"><a href="/news/article-105248.htm" title="宠物店好开吗（宠物店好开吗现在）">宠物店好开吗（宠物店好开吗现在）</a></li>
+                        <li class="py-2"><a href="/news/article-106075.htm" title="详解数据库连接池概念、原理、运行机制等">详解数据库连接池概念、原理、运行机制等</a></li>
+                        <li class="py-2"><a href="/news/article-107089.htm" title="SpringMVC拦截器配置方式">SpringMVC拦截器配置方式</a></li>
+                        <li class="py-2"><a href="/news/article-98376.htm" title="os模块，os.walk()方法解释与使用">os模块，os.walk()方法解释与使用</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">6</span> <a href="/date/2025-05/" title="2025-05 归档">2025-05</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">39</span> <a href="/date/2025-04/" title="2025-04 归档">2025-04</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                                        <p>
+                                                <a href="/">首页</a> |
+                                                <a href="/free-nodes/">免费节点</a> |
+                                                <a href="/paid-subscribe/">推荐机场</a> |
+                                                <a href="/news/">新闻资讯</a> |
+                                                <a href="/client.htm">客户端</a> |
+                                                <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+                    <p>
+                        VPN Edge 机场订阅官网 版权所有
+                        <br />
+                        Powered by WordPress
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/website/js/frontend/clashnode2025/jquery.min.js"></script>
+    <script src="/assets/website/js/frontend/clashnode2025/bootstrap.bundle.min.js"></script>
+    <script src="/assets/website/js/frontend/clashnode2025/tiny-slider.js"></script>
+    <script src="/assets/website/js/frontend/clashnode2025/aos.js"></script>
+    <script src="/assets/website/js/frontend/clashnode2025/navbar.js"></script>
+    <script src="/assets/website/js/frontend/clashnode2025/counter.js"></script>
+    <script src="/assets/website/js/frontend/clashnode2025/custom.js"></script>
+    <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script><script src="/assets/website/js/frontend/G.js"></script>
+</body>
+
+</html>
